@@ -1,0 +1,91 @@
+*{
+    list-style: none;
+    text-decoration: none
+}
+
+     body{
+    background:whitesmoke;
+}
+.sada{
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+
+    
+}
+.sada:hover{
+    background: blueviolet;
+    text-decoration: solid transparent 2s;
+}
+.dady-888{
+    text-align: center;
+    display: grid;
+    
+}
+.big-dad-090{
+    display: flex;
+    max-width: 1000px;
+    background: black;
+    margin:  20px 50px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+.pop-09{
+    color: chartreuse;
+    border: solid 3px red;
+    background: goldenrod;
+    border-radius: 10px;
+}
+.colr-01{
+    color: antiquewhite
+}
+.colr-02{
+    color: antiquewhite
+}
+.dad-76{
+    display: grid;
+}
+.container{
+max-width: 1250px;
+}
+@media only screen and (max-width:460px){
+    .big-dad-090
+    {
+        display: block;
+    }
+}
+.btn
+{
+    background-color: cornflowerblue;
+    border: none;
+    color: azure;
+    border-radius: 5px;
+}
+.btn:hover
+{
+    transition: ease-in-out 50ms;
+    background-color: limegreen;
+}
+@media only screen and (max-width:600px){
+    .pop-09
+    {
+        border: none;
+        background: aquamarine;
+        color: aliceblue;
+    }
+}
+.header-item
+{
+    background: none;
+    transition: none;
+    max-width: none;
+    border-radius: none;
+    text-decoration: solid none;
+}
+.header-item:hover
+{
+    transition: all 50ms;
+    background: aquamarine;
+    border-radius: 5px;
+}

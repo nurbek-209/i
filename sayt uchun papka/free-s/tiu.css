@@ -1,0 +1,31 @@
+*{list-style: none;
+    text-decoration: none;
+    background-image: url(/img/1131217.jpg)
+}
+.hatr{
+    display: flex;
+    justify-content: space-around;
+}
+.asa{
+    padding: 5px;
+    border: solid 2px white
+
+}
+.asa:hover{
+    background:aquamarine;
+    padding: 5px;
+    text-decoration: solid transparent;
+    transition: all 50ms;
+    border: solid 2px blue;
+    border-radius: 10px
+}
+.BGF{
+    justify-content: space-between;
+    display: flex;
+}
+@media only screen and (max-width:768px){
+    .BGF{
+        display: grid;
+        
+    }
+}

@@ -1,0 +1,46 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0
+}
+.vss{
+    display: flex;
+    justify-content: space-evenly;
+}
+.beach{
+    text-align: center
+}
+.mother-father{
+    background-color: aqua;
+    opacity: 85%;
+    color: rebeccapurple
+}
+.ert{
+    background: yellowgreen;
+}
+
+.ert:hover{
+    background:red;
+    opacity: 65%
+}
+.polk{
+    background: yellow;
+    margin: 100px 100px;
+    padding: 5px;
+    border-radius: 10px
+    
+}
+.polk:hover{
+    transition: all 50ms;
+    background:black;
+    text-decoration: solid transparent 2s;
+    padding: 5px;
+    color: azure;
+}
+@media only screen and (max-width:768px){
+    .vss
+    {
+        display: none;
+    }
+}
